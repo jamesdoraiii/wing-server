@@ -1,0 +1,23 @@
+{
+  "name": "wing-server",
+  "version": "1.0.0",
+  "description": "server for Wing user page",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./node_modules/http-server/bin/http-server"
+  },
+  "author": "YOUR NAME HERE",
+  "license": "MIT",
+  "dependencies": {
+    "airtable": "^0.7.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.0",
+    "pg": "^7.4.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.37.0"
+  }
+}
